@@ -1,0 +1,3 @@
+rootProject.name = 'appCondominio'
+
+include ':app'
