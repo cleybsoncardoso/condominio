@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import { AppRegistry, Text } from 'react-native';
 
+class Teste extends Component {
+  render() {
+    return (
+      <Text>teste!</Text>
+    );
+  }
+}
+
 class HelloWorldApp extends Component {
   render() {
     return (
@@ -10,12 +18,6 @@ class HelloWorldApp extends Component {
   }
 }
 
-class Teste extends Component {
-  render() {
-    return (
-      <Text>teste!</Text>
-    );
-  }
-}
+
 
 AppRegistry.registerComponent('HelloWorldApp', () => HelloWorldApp);
