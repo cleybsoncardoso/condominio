@@ -26,7 +26,7 @@ var welcome = React.createClass(
 
 var HelloWorld = React.createClass({
   render: function(){
-    return <View style=(styles.container)>
+    return <View style={styles.container}>
       <Text>
       Hello world!!!
       </Text>
