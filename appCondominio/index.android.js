@@ -12,19 +12,7 @@ import {
   View
 } from 'react-native';
 
-export default class Teste extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Testa ai
-        </Text>
-      </View>
-    );
-  }
-}
-
-export default class appCondominio extends Component {
+class appCondominio extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -38,7 +26,6 @@ export default class appCondominio extends Component {
           Double tap R on your keyboard to reload,{'\n'}
           Shake or press menu button for dev menu
         </Text>
-        <Teste/>
       </View>
     );
   }
