@@ -17,7 +17,7 @@ var welcome = React.createClass(
 {
   return <View>
   <Text>
-welcome
+    welcome ricardo
   </Text>
   </View>
 }
