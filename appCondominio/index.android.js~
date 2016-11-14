@@ -12,9 +12,11 @@ import {
   View
 } from 'react-native';
 
-
+<<<<<<< HEAD
 class appCondominio extends Component {
+=======
 export default class appCondominio extends Component {
+>>>>>>> 0db919d79f1486e5e465496e0318bbae326f8410
   render() {
     return (
       <View style={styles.container}>

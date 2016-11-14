@@ -12,8 +12,6 @@ import {
   View
 } from 'react-native';
 
-
-class appCondominio extends Component {
 export default class appCondominio extends Component {
   render() {
     return (
