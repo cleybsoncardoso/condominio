@@ -1,52 +1,21 @@
+import React, { Component } from 'react';
+import { AppRegistry, Text } from 'react-native';
 
-var React = require('react-native');
-
-var
-{
-  Component,
-  AppRegistry,
-  View,
-  Text,
-  StyleSheet
-} = React;
-
-
-var welcome = React.createClass(
-  {
-    render: function()
-{
-  return <View>
-  <Text>
-    welcome ricardo
-  </Text>
-  </View>
+class HelloWorldApp extends Component {
+  render() {
+    return (
+      <Text>Hello world!</Text>
+      <Teste/>
+    );
+  }
 }
 
-})
-
-var HelloWorld = React.createClass({
-  render: function(){
-    return <View style={styles.container}>
-      <Text>
-      Hello world!!!
-      </Text>
-      <welcome/>
-      </View>
+class Teste extends Component {
+  render() {
+    return (
+      <Text>teste!</Text>
+    );
   }
-})
+}
 
-
-var styles = StyleSheet.create(
-  {
-    container:
-    {
-      flex:1,
-      justifyContent:'center',
-      alignItems : 'center'
-    }
-  }
-)
-
-AppRegistry.registerComponent('HelloWorld', function(){
-  return HelloWorld;
-})
+AppRegistry.registerComponent('HelloWorldApp', () => HelloWorldApp);
